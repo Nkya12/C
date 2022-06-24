@@ -9,7 +9,7 @@ main()
 	
 	if(jml_belanja >= 100000){
 		discount=0.10*jml_belanja;
-		scanf("%F",&jml_belanja);
+		scanf("%f",&jml_belanja);
 	}
 	
 	printf("\nDiscount        : %10.2f",discount);
